@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "langchain-app"
+version = "0.1.0"
+description = ""
+authors = ["Felipph Calado <luizfelipph@gmail.com>"]
+readme = "README.md"
+packages = [{include = "langchain_app"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+langchain = "^0.0.287"
+python-dotenv = "^1.0.0"
+ipykernel = "^6.25.2"
+openai = "^0.28.0"
+pypdf = "^3.16.0"
+tiktoken = "^0.5.1"
+faiss-cpu = "^1.7.4"
+scikit-learn = "^1.3.0"
+matplotlib = "^3.7.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
